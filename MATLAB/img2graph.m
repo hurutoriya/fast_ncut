@@ -49,4 +49,8 @@ for i = 1:DIM
     end
 end
 
+if (size(graph,1) ~= size(graph,2))
+  error('Matrix not square!')
+end
+
 fprintf('End \n')
