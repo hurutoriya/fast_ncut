@@ -3,7 +3,7 @@ close all;
 %% image data convert to Graph Matrix
 
 % params
-RESIZE = 30;
+RESIZE = 50;
 r = 5;
 sigma_i = 0.1;
 sigma_x = 4.0;
@@ -19,8 +19,8 @@ L = D-W;
 k = 2;
 ncut_clusters = ncut(L,D,k);
 image_seg_ncut = reshape(ncut_clusters,RESIZE,RESIZE);
-image_seg_ncut(image_seg_ncut ==2) = 100;
 image_seg_ncut(image_seg_ncut ==1) = 0;
+image_seg_ncut(image_seg_ncut ==2) = 100;
 
 %% Fast Normalized Cut with linear constraints
 A = D^(-0.5)*W*D^(-0.5);
