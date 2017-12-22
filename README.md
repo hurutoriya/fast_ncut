@@ -1,6 +1,9 @@
 # Fast Normalized Cut with Linear Constraints
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+<a href="https://twitter.com/hurutoriya">
+    <img alt="Follow+hurutoriya+on+Twitter" src="https://img.shields.io/twitter/follow/hurutoriya.svg?label=follow+@hurutoriya&style=flat-square">
+  </a>
 
 # Language
 
